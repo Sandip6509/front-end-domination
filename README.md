@@ -1,1 +1,1 @@
-echo "# front-end-domination"
+# front-end-domination
