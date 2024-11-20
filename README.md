@@ -1,21 +1,50 @@
 # front-end-domination
 ## HTML  
 
+## CSS
+- Repeatation Steps
+- HTML File
+- CSS File
+- Write BoilerPlate Code
+- Link To HTML File
+
+### Read CSS To Learn
+- width & height
+- color & bg color
+- units - px % vw vh em rem
+- max-width & max-height
+- font-family
+- font-size
+- line-height
+- text-align
+- padding
+- margin
+- border
+- display
+- position
+- background
+- flex
+- pseudo-elements
+- pseudo-classes
+
+- animation
+- media queries
+
 ## JAVASCRIPT
-- js the language - basic
-- basic
-- inbuilt features
-- variables contants
-- compiler & interpreters
-- window
-- types
-- conditions
-- loops
-- functions
-- arrays
-- objects - basic
-- prototypes
-- prototypes inheritance
-- asynchronous
-- es6 
-- questions
+- JS The Language - basic
+- Basic
+- Inbuilt Features
+- Variables Constants
+- Compiler & Interpreters
+- Window
+- Data Types
+- Conditions
+- Loops
+- Functions
+- Arrays
+- Objects - basic
+- Prototypes
+- Prototypes Inheritance
+- Asynchronous
+- ES6
+- Questions
