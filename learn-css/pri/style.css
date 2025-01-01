@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #f8f8f8;
+  position: relative;
+  padding-top: 0.1px;
+}
+#nav {
+  height: 12vh;
+  width: 100%;
+  /* background-color: cyan; */
+  margin-top: 40px;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav h1 {
+  /* background-color: blue; */
+  height: 100%;
+  width: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Monument";
+  font-size: 45px;
+  letter-spacing: -1px;
+}
+#nav h2 {
+  /* background-color: blue; */
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid #000000;
+  font-size: 20px;
+  font-weight: 600;
+  /* background-color: rebeccapurple; */
+}
+#nav h2:nth-last-child(2) {
+  width: 28%;
+}
+#nav h2:nth-last-child(1) {
+  width: 10%;
+}
+#center {
+  height: 90%;
+  width: 100%;
+  position: relative;
+  padding: 4vw;
+}
+#content {
+  height: 100%;
+  width: 100%;
+  /* background-color: turquoise; */
+  position: relative;
+}
+#content video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#overlay {
+  height: 52%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  /* background-color: red; */
+  padding: 3vw;
+  color: #ffffff;
+}
+#over1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2vw;
+}
+#over1 h1 {
+  font-family: "Monument";
+  font-size: 3.6vw;
+}
+#over1 h2 {
+  font-size: 1vw;
+  padding: 2vw 2.2vw;
+  /* background-color: blue; */
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+#over2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid #ffffff;
+  padding: 1.5vw 0;
+}
+#over2 h4 {
+  font-size: 1.3vw;
+  font-weight: 500;
+}
+#over2 img {
+  height: 3vw;
+}
+#scroll {
+  height: 40vh;
+  width: 100%;
+  /* background-color: aqua; */
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#container {
+  height: 95%;
+  width: 100%;
+  /* background-color: blue; */
+  display: inline-block;
+  padding: 2vw;
+  animation-name: anime;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#scroll img {
+  height: 100%;
+  border-radius: 50%;
+  width: 15%;
+  margin: 1vw;
+  object-fit: cover;
+  object-position: 30% 30%;
+}
+#alphabet {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+#alphabet h5 {
+  font-size: 1.7vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 4px;
+  border-bottom: 2px solid #000000;
+  margin-right: 2vw;
+}
+#alphabet h6 {
+  font-size: 1vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 4px;
+  /* background-color: yellow; */
+  padding: 0.5vw 0.7vw;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #00000000;
+  transition: all ease 0.2s;
+}
+#alphabet h6:hover {
+  border: 1px solid #000000;
+}
+#page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw 5vw;
+}
+#page-one{
+  height: 100%;
+  width: 50%;
+  background-image: url(https://images.unsplash.com/photo-1467632499275-7a693a761056?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+#page-two{
+  height: 100%;
+  width: 46%;
+}
+#page-two img{
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+}
+@keyframes anime {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

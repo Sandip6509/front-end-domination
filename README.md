@@ -48,3 +48,35 @@
 - Asynchronous
 - ES6
 - Questions
+
+### *Responsive website using HTML & CSS
+
+- Understanding Units
+ - px
+ - %
+ - vw, vh
+ - vmax, vmin
+ - em, rem
+
+- Layout of website
+ - absolute vs flex?
+
+- flexbox
+ - display flex
+ - aligning items in x & y axis
+ - flex direction
+ - flex wrap
+
+- CSS Media Queries
+ - min height, max height
+ - min width, max width
+
+# Key points to keep in mind to make website responsive
+
+1. CSS Flexbox
+2. CSS Units
+3. Responsive Typography
+4. Mobile-First Approach
+5. Flexible Images & Media
+
+Practice! Practice! Practice!

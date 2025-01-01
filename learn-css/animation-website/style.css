@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#box1{
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
+  position: relative;
+  animation-name: box-anime;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+#box2{
+  height: 300px;
+  width: 300px;
+  background-color: lightgreen;
+  position: relative;
+  animation-name: box-anime;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+h2 {
+  font-size: 100px;
+  color: #ff0000;
+}
+h2::after {
+  content: " How are you?";
+  color: #0000ff;
+  font-size: 50px;
+}
+h2::before {
+  content: "Hello,";
+  color: #008000;
+  font-size: 50px;
+}
+#box {
+  height: 300px;
+  width: 300px;
+  background-color: #8b008b;
+}
+#box::after {
+  content: 'JHON';
+  background-color: #ff8c00;
+}
+#box::before {
+  content: 'Hello,';
+  background-color: #ff8c00;
+}
+button{
+  padding: 15px 40px;
+  background-color: transparent;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  font-weight: 600;
+  position: relative;
+  transition: all linear 0.5s;
+  border-radius: 5px;
+  overflow: hidden;
+}
+button::after{
+  content: '';
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #00ffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0); 
+  transition: all linear 0.3s;
+  z-index: -1;
+}
+button:hover::after{
+  transform: translate(-50%, -50%) scale(3); 
+}
+button:hover{
+  color: #000000;
+}
+
+@keyframes box-anime {
+  from {
+    left: 0;
+    /* transform: rotate(0deg); */
+  }to{
+    left: 80%;
+    /* transform: rotate(360deg); */
+  }
+}
